@@ -1,0 +1,75 @@
+---
+title: "Assignment 1"
+author: "Tyler Peters"
+date: "September 4, 2016"
+output:
+  pdf_document: default
+  html_document: default
+subtitle: R Programming Assignment - DS 710
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**1.0** Open R.  The first line of text in the console window tells you which version of R you are running (this should be version 3.1.2).  Copy this line of text into a document, to verify that you’ve installed the correct version.
+
+\texttt{R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"}
+
+**1.1** Calculate the cube root of 2015:
+```{r}
+2015^(1/3)
+```
+
+**1.2** Find the absolute value of 5.7 minus 6.8 divided by 0.58:
+```{r}
+abs(5.7-6.8)/.58
+```
+
+**1.3** Create a list of integers from 1 to 12 and call it “a”:
+```{r}
+a = 1:12
+a
+```
+
+**1.4** Create a sequence of odd numbers from 1 to 11:
+```{r}
+b = c(1, 3, 5, 7, 9, 11)
+b
+```
+
+**1.5** Create the same sequence in another way:
+```{r}
+c = seq(1,11, 2)
+c
+```
+
+**1.6** Compute the $\ln{a}$. (Note that this is done to the entire “vector” called a.)
+```{r}
+ln.a = log(a)
+ln.a
+```
+
+**1.7** Compute the squares of the odd numbers from 1 to 11.
+```{r}
+sq.c = c^2
+sq.c
+```
+
+**1.8** Use \texttt{?sd} to view the help file for the \texttt{sd} function.  What does it do?
+```{r}
+?sd
+```
+
+**1.9** Create a variable Name that contains your first name.
+```{r}
+Name = "Tyler"
+paste("My name is", Name)
+```
+
+**1.10**  When you shut down R, R will ask if you want to save the workspace image.  Always choose no.    
+(Saving the workspace image means saving in memory any variables you have defined.  It does not save the code you wrote—you need to save your code in a .r file, or script, for this.  Saving your variables can be confusing:  If you later write another function that’s supposed to use, say, the name of a company, stored in the variable Name, but forget to initialize it, normally R would give you an error message that you could use to figure out your mistake.  But if you save the workspace image, then R won’t give an error message.  It will just use the stored value of Name—but that’s your name, not the company name.  This produces a bug that can be much harder to track down.)
+
+
+
+
