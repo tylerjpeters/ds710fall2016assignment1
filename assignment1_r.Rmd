@@ -56,10 +56,8 @@ sq.c = c^2
 sq.c
 ```
 
-**1.8** Use \texttt{?sd} to view the help file for the \texttt{sd} function.  What does it do?
-```{r}
-?sd
-```
+**1.8** Use \texttt{?sd} to view the help file for the \texttt{sd} function.  What does it do?    
+The \texttt{sd} function takes two arguments: \texttt{x} and \texttt{na.rm}. The function calculates the standard deviation of the values contained in \texttt{x}; the \texttt{na.rm} argument of the latter function 
 
 **1.9** Create a variable Name that contains your first name.
 ```{r}
