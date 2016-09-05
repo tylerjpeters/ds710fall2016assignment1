@@ -1,8 +1,24 @@
 Your first assignment is to use GitHub to submit some autobiographical information about yourself.  Answer the following questions.  Use GitHub to submit the resulting text file.
 1. What is your name?
+	My name is Tyler Peters.
+
 2. Why are you interested in Data Science?
+	Data science is nestled between two areas I am completely and utterly passionate about: mathematics and computing. Adding to the allure, I am an incredibly visual learner; I have also found that I am best at communicating abstract ideas in a visual way. I am very excited to hone my skills and gain a deeper understanding of data science.
+
 3. Tell us a little bit about your programming experience.  What programming courses have you taken?  Do you use programming on the job, and if so, how?
+	Throughout my undergraduate career, I took opportunities to learn new programming languages either through coursework or self-taught learning. I have strong skills in the following languages: AMPL, C#, SQL, Java, Mathemtica (the Wolfram language), and Maple. I have intermediate level skills in the following languages: Perl, Python, R, HTML, CSS, JavaScript, and PHP. I have low-level skills in: Swift and iOS. Though not directly a programming language, I have advanced skills in LaTeX.
+	On the job, I use SQL (of the Microsoft flavor); I currently work for Sentry Insurance as an ETL Developer. 
+	
 4.  Tell us a little bit about your statistics experience.  What statistics courses have you taken?  Do you use statistics on the job, and if so, how?
+	During my undergraduate career, I completed two calculus-based statistics courses. I also partook in an independent study focusing on integer linear programming with a touch of stochastic linear programming. Also note that I have completed DS 705.
+	Outside of the classroom, I served as the statistical analyst in the Career Services Office on the UW-Stevens Point campus for four years. I also participated in state/regional and international mathematical modeling competitions for three years in a row (we utilized probability theory and/or statistical inference for much of our analysis). I also served as a mathematical modeler in the Center for Athletic Scheduling for two years.
+	In my current role, I do not use statistics regularly. Though hopefully that will change sooner than later.
+
 5.  Do you have other experience with R or Python?
+	Aside from DS 705, I used R, Python, and Mathematica to enhance my course notes.
+
 6.  What do you hope to learn in this class?
+	I hope to learn more about the languages I have grown fond of over the course of the past few years. I also hope to challenge my understanding and comfort-level with the languages in a constructive manner.
+
 7.  Is there anything else you would like to share with us?
+	In regard to my learning style, as I noted earlier, I am a visual learner to the core. In addition, I retain and understand information the best when it is applied (I'm all about the theoretical, but if I don't have a sound, applied example, I struggle to retain (or care about) the theory).
