@@ -56,8 +56,12 @@ sq.c = c^2
 sq.c
 ```
 
-**1.8** Use \texttt{?sd} to view the help file for the \texttt{sd} function.  What does it do?    
-The \texttt{sd} function takes two arguments: \texttt{x} and \texttt{na.rm}. The function calculates the standard deviation of the values contained in \texttt{x}; the \texttt{na.rm} argument of the latter function 
+**1.8** Use \texttt{?sd} to view the help file for the \texttt{sd} function.  What does it do?
+```{r}
+?sd
+```
+The \texttt{sd}^[R Core Team (2016). R: A language and environment for statistical computing. R Foundation for Statistical
+  Computing, Vienna, Austria. URL https://www.R-project.org/.] function takes two arguments: \texttt{x} and \texttt{na.rm}. The function calculates the standard deviation of the values contained in \texttt{x}; the \texttt{na.rm} argument removes missing values from \texttt{x} if set to \texttt{TRUE}.
 
 **1.9** Create a variable Name that contains your first name.
 ```{r}
